@@ -7,4 +7,4 @@ var getReduced = function(item)
 {
   document.getElementById("reduce").innerHTML = list.reduce(getSum);
 }
-window.alert(getReduced)
+getReduced
